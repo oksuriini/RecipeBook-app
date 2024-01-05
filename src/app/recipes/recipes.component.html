@@ -1,0 +1,8 @@
+@for (recipe of recipeList; track recipe) {
+  <div>
+    <h2>{{ recipe.name }}</h2>
+    <p>{{ recipe.description }}</p>
+  </div>
+} @empty {
+  <p>There are no recipes to show</p>
+}
