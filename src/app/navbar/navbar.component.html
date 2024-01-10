@@ -3,6 +3,7 @@
   <li class="link"><a routerLink="/recipes">Recipes</a></li>
   <li class="link"><a routerLink="/search">Search</a></li>
   <li class="link"><a routerLink="/about">About</a></li>
-  <li class="link" *ngIf="ngIf"><a>Account</a></li>
-  <li class="link" *ngIf="!ngIf"><a>Log in</a></li>
+  <li class="link" *ngIf="logged"><a>Create</a></li>
+  <li class="link" *ngIf="logged"><a>Account</a></li>
+  <li class="link" *ngIf="!logged"><a>Log in</a></li>
 </ul>

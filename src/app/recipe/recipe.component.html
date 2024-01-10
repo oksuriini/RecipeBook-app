@@ -1,0 +1,11 @@
+@if (currentRecipe) {
+  <div id="food-recipe">
+    <img src="{{ currentRecipe.imageUrl }}" alt="" id="food-image" />
+    <h2>{{ currentRecipe.name }}</h2>
+  </div>
+  <div>
+    <p>{{ currentRecipe.description }}</p>
+  </div>
+} @else {
+  <p>No id found</p>
+}
