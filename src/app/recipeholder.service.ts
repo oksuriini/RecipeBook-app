@@ -26,4 +26,8 @@ export class RecipeholderService {
   getAllRepices(): RecipeThumbs[] {
     return this.recipeList;
   }
+
+  addRepice(repice: RecipeThumbs) {
+    this.recipeList.push(repice);
+  }
 }

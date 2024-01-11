@@ -16,5 +16,15 @@ export class RecipesComponent implements OnInit {
 
   ngOnInit(): void {
     this.recipeList = this.recipeHolderService.getAllRepices();
+
+    this.recipeHolderService.addRepice(
+      new RecipeThumbs(
+        'fksie83hd9',
+        'Example Pie',
+        'Nice slice of pie',
+        'url-to-pie',
+        1,
+      ),
+    );
   }
 }
