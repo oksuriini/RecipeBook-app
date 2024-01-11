@@ -31,7 +31,7 @@ export class RecipeComponent implements OnInit {
       name: 'Mashed potatoes',
       id: 'I8Huf730OpdUs',
       description: 'Traditional mashed potatoes with sauce',
-      imageUrl: 'url-to-mashed',
+      imageUrl: './assets/foods/mashed.jpg',
       difficulty: 3,
     },
     {
